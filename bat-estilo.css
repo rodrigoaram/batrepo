@@ -16,6 +16,7 @@ body{
     background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
     /* background-image: url(imgs/logo-batman.png) ;
     background-size: 50px; */
+    
 }
 
 #site{
@@ -59,4 +60,25 @@ body{
 
 #form-busca button:hover svg{
     stroke: #888;
+}
+
+#menu{
+    background: #333;
+    margin: 10px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+#menu a{
+    color: #FFF;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+#menu a:hover{
+    color: #FEF111
 }
