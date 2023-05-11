@@ -1,0 +1,62 @@
+*{
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     margin: 0;
+     padding: 0;
+     border: none;
+     box-sizing: border-box;  
+}
+
+hr{
+    border:1px solid #333;
+    margin: 10px;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
+    /* background-image: url(imgs/logo-batman.png) ;
+    background-size: 50px; */
+}
+
+#site{
+    width: 1024px;
+    height: 400px;
+    background-color: #FFF;   
+    margin: 20px auto; 
+    border-radius: 15px
+}
+
+#topo{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    padding:20px 20px 0 20px;
+}
+
+#form-busca{
+    flex-grow: 1;
+    text-align: right;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+#busca{
+    border: 2px solid #515151;
+    padding: 3px;
+}
+
+#form-busca button{
+    background: transparent;
+    cursor: pointer;
+}
+
+#form-busca button svg{
+    transition: all 300ms;
+}
+
+#form-busca button:hover svg{
+    stroke: #888;
+}
