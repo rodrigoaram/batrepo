@@ -21,7 +21,6 @@ body{
 
 #site{
     width: 1024px;
-    height: 400px;
     background-color: #FFF;   
     margin: 20px auto; 
     border-radius: 15px
@@ -33,6 +32,12 @@ body{
     flex-direction: row;
     align-items: center;
     padding:20px 20px 0 20px;
+}
+
+#topo h2{
+    font-family: 'Bangers', cursive;
+    font-size: 3.5em;
+    text-shadow: 3px 3px #FEF111 ;
 }
 
 #form-busca{
@@ -81,4 +86,80 @@ body{
 
 #menu a:hover{
     color: #FEF111
+}
+
+.produto{
+    margin:20px;
+}
+
+.produto h1{
+    font-family: 'Bangers', cursive;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.container-produto{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-produto img{
+    flex-grow: 1;
+}
+.container-produto .dados-produto{
+    flex-grow: 3;
+}
+
+.dados-produto p{
+    margin:10px 0;
+}
+
+#preco{
+    font-size: 2em;
+}
+
+.tabela{
+    border: 1px solid #333;
+    width: 100%;
+    text-align: center;
+}
+.tabela tr td{
+    border: 1px solid #333;
+}
+
+.tabela th{
+    background: #333;
+    color: #FFF;
+}
+
+.tabela tr:nth-child(even) td{
+    background: #EEE;
+}
+
+#btn-compra{
+    background-color: #000;
+    color:#FFF;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    display: flex;
+    justify-items: center;
+}
+
+#btn-compra:hover{
+    color: #FEF111;
+}
+
+#btn-compra svg{
+    fill: #FFF;  
+}
+
+
+#rodape{
+    padding:50px;
+    text-align: center;
+    border-top: 2px solid #333;
+    margin:10px;
 }
